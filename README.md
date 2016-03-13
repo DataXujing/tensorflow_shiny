@@ -14,9 +14,11 @@ I have a [live demo of this app](http://projects.rajivshah.com/shiny/tensorflow/
 
 The requirements for the app include tensorflow and numpy on the Python side.  Shiny, Metrics, plotly, and rPython on the R side. rPython can be difficult to install/configure, so please verify that rPython is working correctly if you are having problems running the code.
 
-To use the app, select your model options. For input, there are three options of increasing complexity. Steps for prediction window refers to how far ahead is the model supposeto predict. For this data, 20s seemed a reasonable window.  For Cell Type, select one of the cell types and press Initialize Model.  Then select iterations (max of 10,000) and press Train.  After a few seconds, you will see the output.  
+#### Using the App:
 
-Take advantage of the plots to zoom in and out and see the shape of the actual and predicted outputs. To further improve the model, you can add iterations by pressing the train button.  The plots let you see how the RNN model is learning and getting better at predicting the output.
+To use the app, select your model options. For the inputs, there are three options of increasing complexity. Steps for prediction window refers to how far ahead is the model suppose to predict. For this data, 20s seemed a reasonable window.  For Cell Type, select one of the cell types and press Initialize Model.  Then select iterations (max of 10,000) and press Train.  After a few seconds, you will see the output.  
+
+Take advantage of the plots to zoom in and out and see the shape of the actual and predicted outputs. To further improve the model, you can add iterations by pressing the train button.  The plots show how the RNN model is learning and getting better at predicting the output.
 
 To try a new model, select a new cell type and press initialize model.  Then select the number of iterations and press train.
 
