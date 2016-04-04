@@ -1,6 +1,6 @@
 ### **Shiny front end for Tensorflow demo**
 
-This repo shows how shiny can be a GUI front end for tensorflow. The shiny app allows trying different inputs, RNN cell types, and even optimizers. The results are shown with plots as well as a link to tensorboard. The app allows anyone to try out these models with a variety of modelling options.  More background can be found at [my blog](http://projects.rajivshah.com/blog//2016/04/01/tensorflow_shiny/).
+This repo shows how shiny can be a GUI front end for tensorflow. The shiny app allows trying different inputs, RNN cell types, and even optimizers. The results are shown with plots as well as a link to tensorboard. The app allows anyone to try out these models with a variety of modelling options.  More background can be found at [my blog](http://projects.rajivshah.com/blog/2016/04/01/tensorflow_shiny/).
 
 The code for the shiny web app was based around work by [Sachin Jogleka](https://codesachin.wordpress.com/2016/01/23/predicting-trigonometric-waves-few-steps-ahead-with-lstms-in-tensorflow/). Sachin focused on RNNs that had two numeric inputs.  (This is slightly different than most RNN examples which focus on language models.)
 
