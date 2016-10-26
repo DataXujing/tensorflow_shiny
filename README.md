@@ -23,3 +23,12 @@ Take advantage of the plots to zoom in and out and see the shape of the actual a
 To try a new model, select a new cell type and press initialize model.  Then select the number of iterations and press train.
 
 If the app crashes, no worries, it happens.  I have not accounted for everything that could go wrong. 
+
+#### Update October 2015  
+  
+With the release Tensorflow for R, I don't plan on further updating this project.  Ideally, I should be able to recreate this in Tensorflow for R.
+
+
+
+
+
